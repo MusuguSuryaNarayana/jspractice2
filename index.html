@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Types in Js</title>
+</head>
+<body>
+  <pre>//ASSESSMENT-2
+    //DATA-TYPES IN JS
+    //Q-1
+    let x=5;
+    let y=x;
+    x=10;
+    console.log(x);
+    console.log(y);
+    OUTPUT:10
+           5
+    
+    //  Q-2
+    let obj1={name:"Alice"};
+    let obj2=obj1;
+    obj1.name='Bob';
+    console.log(obj1.name);
+    console.log(obj2.name);
+    OUTPUT:Bob
+           Bob
+    
+    //Q-3
+    let a="hello";
+    let b=42;
+    let c=true;
+    let d={key:"value"};
+    let e=null;
+    let f=undefined;
+    
+    console.log(typeof a);
+    console.log(typeof b);
+    console.log(typeof c);
+    console.log(typeof d);
+    console.log(typeof e);
+    console.log(typeof f);
+    OUTPUT:string
+           number
+           boolean
+           object
+           object
+           undefined
+    
+    //Q-4
+    let numbers=[10,20,30,40,50];
+    console.log(numbers[2]);
+    console.log(numbers[0]);
+    console.log(numbers[numbers.length-1]);
+    OUTPUT:30
+           10
+           50
+    
+    //Q-5
+    let fruits=["apple","banana","mango"];
+    fruits[1]="Orange";
+    console.log(fruits);
+    OUTPUT:[ 'apple', 'Orange', 'mango' ]
+    
+    //Q-6
+    let matrix=[
+        [1,2,3],
+        [4,5,6],
+        [7,8,9]];
+        console.log(matrix[1][2]);
+        console.log(matrix[2][0]);
+    OUTPUT:6
+           7
+    
+    //Q-7
+    let person={
+        name:"John",
+        age:25,
+        city:"New York"
+    };
+    console.log(person.name);
+    console.log(person.age);
+    OUTPUT:John
+           25
+    
+    //Q-8
+    let car={
+        make:"Toyota",
+        model:"Corolla",
+        year:2021
+    };
+    console.log(car["make"]);
+    console.log(car["model"]);
+    OUTPUT:Toyota
+           Corolla
+    
+    //Q-9
+    let book={
+        title:"The Great Gatsby",
+        author:"F.Scott Fitzgerald"
+    };
+    book.author="Anonymous";
+    console.log(book.author);
+    OUTPUT:Anonymous
+    
+    //Q-10
+    let student={
+        name:"Alice",
+        grade:"A"
+    };
+    student.age=20;
+    console.log(student);
+    OUTPUT:{ name: 'Alice', grade: 'A', age: 20 }</pre>  
+
+</body>
+</html>
